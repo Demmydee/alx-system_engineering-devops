@@ -6,3 +6,4 @@
 5-listfilesdigitonly script displays contents numerically
 6-firstdirectory script creates a directory in /tmp
 7-movethatfile script moves file betty from /tmp to /tmp/my_first_directory
+8-firstdelete script deleted betty from /tmp/my_first_directory
