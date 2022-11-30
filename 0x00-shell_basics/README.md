@@ -15,3 +15,4 @@
 14-copy_html script copies selected html files from current dir to parent dir
 100-lets_move script moves all files beginning with an uppercase to /tmp/u
 101-clean_emacs deletes all files in the current dir ending with character ~
+102-tree creates welcome/ welcome/to/ welcome/to/school in the current dir
