@@ -12,3 +12,4 @@
 11-lists script lists contents and hidden files of present, parent, and /boot directories
 12-file_type prints file type of /tmp/iamafile
 13-symbolic_link creates a symbolic link to /bin/ls
+14-copy_html script copies selected html files from current dir to parent dir
