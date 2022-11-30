@@ -4,3 +4,4 @@
 3-listfiles script performs a long list of the contents of the current directory
 4-listmorefiles script performs a long list of the contents of the current directory including hidden files
 5-listfilesdigitonly script displays contents numerically
+6-firstdirectory script creates a directory in /tmp
