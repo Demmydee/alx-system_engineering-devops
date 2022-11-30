@@ -10,3 +10,4 @@
 9-firstdirdeletion script deletes the dir my_first_directory from /tmp
 10-back script navigates to the previous dir
 11-lists script lists contents and hidden files of present, parent, and /boot directories
+12-file_type prints file type of /tmp/iamafile
