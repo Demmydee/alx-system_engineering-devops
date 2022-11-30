@@ -5,3 +5,4 @@
 4-listmorefiles script performs a long list of the contents of the current directory including hidden files
 5-listfilesdigitonly script displays contents numerically
 6-firstdirectory script creates a directory in /tmp
+7-movethatfile script moves file betty from /tmp to /tmp/my_first_directory
