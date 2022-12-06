@@ -1,1 +1,1 @@
-This erves as the project's manual
+This serves as the project's manual
