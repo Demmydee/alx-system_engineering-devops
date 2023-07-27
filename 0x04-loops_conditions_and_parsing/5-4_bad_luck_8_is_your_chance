@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 # Displays "Best School" 10 times but displays Hi after the 9th iteration
 i=1
-while ((i <= 10))
+while ((i <= 8))
 do
 	echo "Best School"
 	((i++))
-	if [ $i -eq 5 ]
+	if [ $i -eq 4 ]
 	then
 		echo "bad luck"
-	elif [ $i -eq 9 ]
+	elif [ $i -eq 7 ]
+	then
 		echo "good luck"
 	fi
 done
