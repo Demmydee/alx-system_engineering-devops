@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#Displays Fizz, Buzz, FizzBuzz for multiple of 3, 5, 3 and 5 btw 1 & 100
+
+num=1
+while [ $num -le 100 ]
+do
+    if [ $((num % 15)) -eq 0 ]
+    then
+	echo "FizzBuzz"
+    elif [ $((num % 3)) -eq 0 ]
+    then
+	echo "Fizz"
+    elif [ $((num % 5)) -eq 0 ]
+    then
+        echo "Buzz"
+    else
+	echo $num
+    fi
+    ((num++))
+done
