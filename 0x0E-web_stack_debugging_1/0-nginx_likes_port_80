@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# This script configures a server to enable Nginx on 80 port
-
-ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx start
-
