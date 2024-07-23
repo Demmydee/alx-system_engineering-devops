@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Runs whoami command under the user passed as an argument
+
+if ! id "syslog" &>/dev/null; then
+  sudo useradd syslog
+fi
+
+if [ -z "$1" ]; then
+  echo "Please provide a user as an argument."
+  exit 1
+fi
+
+sudo -u "$1" whoami
