@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 export data in CSV format
 """
 import csv
