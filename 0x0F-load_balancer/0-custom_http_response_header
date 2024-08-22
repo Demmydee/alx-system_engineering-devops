@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # configures web-02 to be identical to web-01
-sudo apt-get -y update
-sudo apt-get -y install nginx
-sudo ufw allow 'Nginx HTTP'
-sudo mkdir -p /var/www/html /var/www/error
-sudo chmod -R 755 /var/www
+apt-get update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+mkdir -p /var/www/html /var/www/error
+chmod -R 755 /var/www
 echo 'Hello World!' > /var/www/html/index.html
 echo "Ceci n'est pas une page" > /var/www/html/404.html
 server_config=\
@@ -28,4 +28,4 @@ server_config=\
 }"
 
 echo "$server_config" > /etc/nginx/sites-enabled/default
-sudo service nginx restart
+service nginx restart
